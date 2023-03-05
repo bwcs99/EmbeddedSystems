@@ -1,0 +1,100 @@
+$date
+  Sat Mar 27 19:17:40 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module zadanie5_tb $end
+$var reg 3 ! a1[2:0] $end
+$var reg 3 " b1[2:0] $end
+$var reg 3 # c1[2:0] $end
+$var reg 3 $ d1[2:0] $end
+$var reg 3 % x1[2:0] $end
+$var reg 3 & ans[2:0] $end
+$scope module uut $end
+$var reg 3 ' a[2:0] $end
+$var reg 3 ( b[2:0] $end
+$var reg 3 ) c[2:0] $end
+$var reg 3 * d[2:0] $end
+$var reg 3 + x[2:0] $end
+$var reg 3 , f_out[2:0] $end
+$var reg 3 - neg_f_out[2:0] $end
+$var reg 3 . s_out[2:0] $end
+$scope module g1 $end
+$var reg 3 / x[2:0] $end
+$var reg 3 0 y[2:0] $end
+$var reg 3 1 z[2:0] $end
+$upscope $end
+$scope module g2 $end
+$var reg 3 2 x[2:0] $end
+$var reg 3 3 y[2:0] $end
+$var reg 3 4 z[2:0] $end
+$upscope $end
+$scope module g3 $end
+$var reg 3 5 x[2:0] $end
+$var reg 3 6 y[2:0] $end
+$upscope $end
+$scope module g4 $end
+$var reg 3 7 x[2:0] $end
+$var reg 3 8 y[2:0] $end
+$var reg 3 9 z[2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b101 !
+b000 "
+b111 #
+b010 $
+bUUU %
+b111 &
+b101 '
+b000 (
+b111 )
+b010 *
+bUUU +
+bUUU ,
+bUUU -
+bUUU .
+b101 /
+b000 0
+bUUU 1
+b111 2
+b010 3
+bUUU 4
+bUUU 5
+bUUU 6
+bUUU 7
+bUUU 8
+bUUU 9
+#1000000
+bUUU +
+b000 ,
+b111 .
+b000 1
+b111 4
+b000 5
+bUUU 6
+b111 7
+bUUU 9
+#2000000
+b111 %
+b111 +
+b111 -
+b111 6
+b111 8
+b111 9
+#3000000
+b111 +
+b111 9
+#5000000
